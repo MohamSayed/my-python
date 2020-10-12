@@ -9,8 +9,8 @@ browser = mechanicalsoup.StatefulBrowser(
 URL = "https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page"
 browser.open(URL)
 form = browser.select_form()
-browser["wpName"] = "Mohamed Naga"
-browser["wpPassword"] = "jKlEYZ8UDx!3"
+browser["wpName"] = ""
+browser["wpPassword"] = ""
 resp = browser.submit_selected()
 
 
