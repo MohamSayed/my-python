@@ -9,7 +9,6 @@ class FirstException(Exception):
     pass
         
 
-
 try:
     raise FirstException
 except FirstException as e:
